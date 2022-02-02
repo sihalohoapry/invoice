@@ -9,10 +9,19 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class PageController {
 	
-	@RequestMapping(value= { "/","/home","/index" })
+	@RequestMapping(value= { "/","/dashboard","/index" })
 	public ModelAndView index() {
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("greeting","Be Greet");
+		mv.addObject("title","Dashboard");
+		mv.addObject("userClickHome",true);
+		return mv;
+	}
+	
+	@RequestMapping(value="/list-invoice")
+	public ModelAndView listInvoice() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title","List Invoice");
+		mv.addObject("userClickListInvoice",true);
 		return mv;
 	}
 	
