@@ -138,7 +138,7 @@
                             Shirup Marzzan
                           </div>
                           <div class="col-md-3">
-                            Angga Risky
+                            James
                           </div>
                           <div class="col-md-3">
                             12 Januari, 2020

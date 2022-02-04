@@ -13,6 +13,13 @@
 		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		
+		<!-- Link backend project -->
+		<dependency>
+			<groupId>net.apry</groupId>
+  			<artifactId>invoicebe</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- JAVA EE API -->
 		<dependency>
